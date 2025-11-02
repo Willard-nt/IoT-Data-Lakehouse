@@ -38,7 +38,7 @@ Technologies used:
 
 ### Athena Query Results
 
-![Customer Landing](screenshots/customer_landing.png)
+![Customer Landing](screenshots/customer_landing.png)  
 ![Accelerometer Landing](screenshots/accelerometer_landing.png)  
 ![Step Trainer Landing](screenshots/step_trainer_landing.png)
 
@@ -49,6 +49,12 @@ Technologies used:
 - Created two AWS Glue jobs:
   - `customer_trusted`: Filtered customers who consented to data sharing.
   - `accelerometer_trusted`: Filtered accelerometer readings from consenting customers.
+
+### Glue Job Screenshots
+
+![Customer Trusted Glue Job](screenshots/customer_trusted_job.png)  
+![Accelerometer Trusted Glue Job](screenshots/accelerometer_trusted_job.png)
+
 - Verified results using Athena.
 
 ### Athena Query Result
@@ -64,6 +70,10 @@ Technologies used:
   - Included only customers with valid accelerometer data and consent.
   - Ensured correct serial number alignment with IoT records.
 
+### Glue Job Screenshot
+
+![Customers Curated Glue Job](screenshots/customer_curated_job.png)
+
 ---
 
 ## Glue Studio Jobs for Final Integration
@@ -71,6 +81,11 @@ Technologies used:
 - Built two Glue Studio jobs:
   1. `step_trainer_trusted`: Filtered Step Trainer records for curated customers.
   2. `machine_learning_curated`: Aggregated Step Trainer and Accelerometer readings by timestamp.
+
+### Glue Studio Job Screenshots
+
+![Step Trainer Trusted Glue Job](screenshots/step_trainer_trusted_job.png)  
+![Machine Learning Curated Glue Job](screenshots/machine_learning_curated_job.png)
 
 ![Entity Relationship Diagram](screenshots/relationship_diagram.png)
 
