@@ -72,7 +72,7 @@ Technologies used:
   1. `step_trainer_trusted`: Filtered Step Trainer records for curated customers.
   2. `machine_learning_curated`: Aggregated Step Trainer and Accelerometer readings by timestamp.
 
-![Entity Relationship Diagram](/relationship_diagram.png)
+![Entity Relationship Diagram](screenshots/relationship_diagram.png)
 
 ---
 
