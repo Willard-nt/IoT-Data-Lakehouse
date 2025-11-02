@@ -107,7 +107,3 @@ Validated row counts at each stage:
 
 All screenshots and SQL scripts are included in the `/screenshots` and `/sql_scripts` folders respectively.
 
----
-
-## Repository Structure
-
