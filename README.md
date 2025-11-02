@@ -14,7 +14,7 @@ Technologies used:
 
 ## Workflow Architecture
 
-![Flowchart of the data pipeline](.png)
+![Flowchart of the data pipeline](screenshots/data_flow.png)
 
 ---
 
