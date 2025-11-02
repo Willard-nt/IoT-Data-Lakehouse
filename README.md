@@ -87,6 +87,7 @@ Technologies used:
 ![Step Trainer Trusted Glue Job](screenshots/step_trainer_trusted_job.png)  
 ![Machine Learning Curated Glue Job](screenshots/machine_learning_curated_job.png)
 
+## Entity Relationship
 ![Entity Relationship Diagram](screenshots/relationship_diagram.png)
 
 ---
