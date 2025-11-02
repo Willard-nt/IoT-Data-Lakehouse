@@ -40,7 +40,7 @@ Technologies used:
 
 ![Customer Landing](screenshots/customer_landing.png)
 ![Accelerometer Landing](screenshots/accelerometer_landing.png)  
-![Step Trainer Landing](step_trainer_landing.png)
+![Step Trainer Landing](screenshots/step_trainer_landing.png)
 
 ---
 
